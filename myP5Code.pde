@@ -13,8 +13,18 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("NAHHH", 176, 200);
+    text("NEVERRRRRR", 159, 229); 
+  }
+
+  if (answer ==2) {
+    text("maybe...", 176, 200);
+    text("blushes", 159, 229);
+  }
+
+  if (answer == 3) {
+    text("ask", 176, 200);
+    text("someone else", 159, 229);
   }
   
 };

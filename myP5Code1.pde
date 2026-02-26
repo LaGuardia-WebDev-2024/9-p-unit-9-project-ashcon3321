@@ -19,7 +19,7 @@ draw = function(){
    if(keyPressed){
      if(key == 'f'){
        sceneImage = forestImage;   
-       sceneText = "No fox here.  [Press s to restart]";
+       sceneText = "poop.  [Press s to restart]";
      } 
      if(key == 's'){
       sceneImage = caveSceneImage;
