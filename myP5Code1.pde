@@ -3,7 +3,7 @@ setup = function() {
 };
 
 //Background Images
-var caveSceneImage = loadImage("https://www.shutterstock.com/image-vector/vector-illustration-background-forest-scenery-600nw-1807427365.jpg");
+var caveSceneImage = loadImage("https://img.freepik.com/free-vector/blank-kids-playground-with-slides-scene_1308-53112.jpg?semt=ais_rp_progressive&w=740&q=80");
 
 var forestImage = loadImage("https://t3.ftcdn.net/jpg/02/50/39/72/360_F_250397206_HuBj2V5oEytcqonzpzum4IjEjtAsZq3g.jpg");
 
@@ -40,6 +40,7 @@ var drawScene = function(){
    
     text(sceneText, 10, 375);
 };
+
 
 
 
