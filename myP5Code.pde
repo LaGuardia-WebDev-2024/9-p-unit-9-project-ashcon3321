@@ -11,6 +11,8 @@ draw = function(){
   fill(60, 0, 255);
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
+
+  
   
   if (answer == 1) {
     text("NAHHH", 176, 200);
@@ -25,6 +27,11 @@ draw = function(){
   if (answer == 3) {
     text("ask", 176, 200);
     text("someone else", 159, 229);
+  }
+  
+  if(answer ==4) {
+    text("its guranteed", 176, 200);
+    text("bro", 159, 229);
   }
   
 };
